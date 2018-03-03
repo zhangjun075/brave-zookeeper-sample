@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: zk-lock
+  aop:
+    auto: true
+    proxy-target-class: true
+server:
+  port: 9001
+zk:
+  connect: localhost:2181
